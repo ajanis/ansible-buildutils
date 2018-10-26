@@ -1,0 +1,4 @@
+build_pkgs:
+  - git
+  - gcc
+  - make
