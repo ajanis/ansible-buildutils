@@ -1,5 +1,4 @@
 - name: Install Build Packages
   package: 
-    name: "{{ item }}" 
+    name: "{{ build_pkgs }}" 
     state: present
-  with_items: "{{ build_pkgs }}"
